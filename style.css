@@ -1,0 +1,853 @@
+*{
+    margin: 0;
+    border : border-box;
+
+    
+}
+.navbar{
+    height : 35px;
+    background-color: white;
+    display : flex;
+}
+.logitechlogo{
+    
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 50px;
+    height : 22px;
+    width : 78px;
+    padding : 11px 11px 11px 0px;
+    font-size: 0.9rem;
+    color: #908888;
+    bottom : 2px;
+    
+}
+.ourbrands{
+    margin-left: 27px;
+    border : none;
+}
+.globeindia i{
+    display : flex;
+}
+.globeindia{
+    position : relative;
+    margin-left: 700px;
+    font-size: 14px;
+    color: #908888;
+}
+.backimage{
+    background-image: url("https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-desktop.jpg?v=1");
+    height : 580px;
+    width : 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.logitech2{
+    height : 50px;
+    width : 120px;
+    background-image: url(test.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.tags{
+    color : white;
+    margin-left: 15px;
+    display: flex;
+    width : 40%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 170px;
+    font-size: 0.9rem;
+
+}
+.search{
+    margin-top: 20px;
+    
+}
+.button{
+    border-radius: 17%;
+}
+.user{
+
+    margin-left : 200px;
+    margin-bottom : 200px;
+}
+.fancy{
+    font-size: 3rem;
+    color:white;
+}
+.msm{
+    width : 100%;
+    clear : both;
+    margin-top: 150px;
+    position : relative;
+    top : 10px;
+    margin-top : -90px;
+}
+.a{
+    font-size: 3rem;
+    color : white;
+    margin-left : 39px;
+}
+.b{
+    font-size: 3rem;
+    color : white;
+    margin-left : 39px;
+    margin-bottom: 20px;
+
+}
+.nextdiv{
+margin-top : 160px;    
+width : 100%
+}
+.mastertext{
+    color:white;
+    font-size: 1.2rem;
+    margin-left : 39px;
+}
+.masterbutton{
+    width : 100px;
+    height : 29px;
+    font-size: 0.8rem;
+    margin-bottom: 150px;
+}
+.masterbutton2{
+    width : 100px;
+    height : 29px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+.buttonc{
+    margin-left: 39px;
+    margin-bottom: 180px;
+}
+.nextpart {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /* This keeps spacing equal */
+    align-items: flex-start; /* Ensures all items align properly */
+    gap: 20px; /* Adds uniform spacing */
+    flex-wrap: wrap;
+}
+
+.image {
+    height: 378px;
+    width: 378px;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Ensure all images have proper backgrounds */
+.image1 { background-image: url("1.jpeg"); }
+.image2 { background-image: url("2.jpeg"); }
+.image3 { background-image: url("3.webp"); }
+
+/* Ensures uniform container alignment */
+.image-cont1, .image-cont2, .image-cont3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center aligns text and image */
+    text-align: center; /* Ensures text stays under the image */
+    width: 28%; /* Each section takes equal space */
+    margin: 0; /* Remove unnecessary margins */
+}
+
+.image11,.image21 ,.image31 {
+    font-weight : 600;
+    font-size: 1.3rem;
+}
+    
+
+
+.imagen {
+    margin-right: 0px; /* Remove unwanted right margin */
+    text-align: center; /* Ensure the text aligns properly */
+}
+.section3{
+    width : 100%;
+    clear : both;
+    height : 350px;
+    display : flex;
+    flex-wrap :wrap
+}
+.section3-container{
+    display : flex;
+    flex-direction: row;
+    margin-top : 25px;
+    flex-wrap: wrap;
+}
+
+.new{
+    margin-left : 48px;
+
+}
+.bestsellers{
+    margin-left : 78px;
+}
+.recommended{
+    margin-left : 108px;
+}
+hr{
+    height : 1px;
+    background-color: #636060;  /* Line color */
+    width: 100%;  /* Full-width line */
+    margin: 0px 320px 0px 48px; 
+}
+.images__{
+    width : 100%;
+    clear : both;
+    display : flex;
+    flex-direction: row;  
+    gap : 28px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+.image1_{
+    background-image : url("section31.webp");
+    background-size: cover;
+    height : 180px;
+    width : 180px;
+    border : 20px solid rgb(239, 235, 235);
+    margin-left: 50px;
+}
+.image2_{
+    background-image : url("section32.webp");
+    background-size: cover;
+    height : 180px;
+    width : 180px;
+    border : 20px solid rgb(239, 235, 235);
+}
+.image3_{
+    background-image : url("section33.webp");
+    background-size: cover;
+    height : 180px;
+    width : 180px;
+    border : 20px solid rgb(239, 235, 235);
+}
+.image4_{
+    background-image : url("section34.webp");
+    background-size: cover;
+    height : 180px;
+    width : 180px;
+    border : 20px solid rgb(239, 235, 235);
+}
+.image5_{
+    background-image : url("section35.webp");
+    background-size: cover;
+    height : 180px;
+    width : 180px;
+    border : 20px solid rgb(239, 235, 235);
+}
+.inside{
+    display : flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.inside1 p {
+    text-align: center;
+}
+.shopseriesname{
+    margin-top : 150px;
+    margin-left : 628.4px;
+    font-size : 2.5rem;
+    display : flex;
+    flex-wrap: wrap;
+}
+.shopseries{
+    display : flex;
+    flex-direction: column;
+    background-color: #e3dfdf;
+    width : 100%;
+    margin-top : 135px;
+}
+.shopimage{
+    display : flex;
+    align-items: center ;
+    justify-content: center;
+    color : white;
+}
+.shopimage2{
+    display : flex;
+    color : white;
+}
+
+.shopseries1{
+   background-image: url("shopseries.1.webp");
+   height : 319px;
+   width : 375px;
+   margin-left : 148px;
+   margin-top : 25px;
+
+}
+.shopseries2{
+   background-image: url("shopseries.2.webp");
+   height : 319px;
+   width : 375px;
+   margin-left:74px;
+   margin-top : 25px;
+}
+.shopseries3{
+    background-image: url("shopseries.3.webp");
+    height : 319px;
+    width : 375px;
+    margin-left : 50px;
+    margin-top : 25px;
+}
+.shopseries4 {
+    background-image: url("shopseries.4.webp");
+    height: 319px;
+    width: 375px;
+    margin-left : 148px;
+    
+}
+
+.shopseries5 {
+    background-image: url("shopseries.5.webp");
+    height: 319px;
+    width: 799px; 
+    margin-left : 74px;
+}
+
+
+
+.shopseriesimages3{
+    display : flex;
+    flex-direction: row;
+}
+.image2ndpart {
+    display : flex;
+    flex-direction: row;
+
+}
+
+.lastpartimage1{
+    background-image: url("last1.webp");
+    background-size: cover;
+    height : 434px;
+    width : 379px;
+    margin-left : 150px;
+}
+.lastpartimage2{
+    background-image: url("last2.webp");
+    background-size: cover;
+    width : 379px;
+    height : 207px;
+}
+.lastpartimage3{
+    background-image: url("last3.webp");
+    background-size: cover;
+    height : 434px;
+    width : 379px;
+    margin-right : 150px;
+}
+.lastpartimage4{
+    background-image: url("last4.webp");
+    background-size: cover;
+    height : 207px;
+    width : 379px;
+    margin-left: 80px;
+    margin-right : 910px;
+}
+.lastpartimagemid{
+    background-image: url("lastmiddle.webp");
+    background-size: cover;
+    width :  379px;
+    height : 434px;
+    position: relative; 
+    margin-top: -433px; 
+    margin-left: 476px; 
+    
+    
+}
+.lastpartimage6{
+    background-image: url("last6.webp");
+    background-size: cover;
+    height : 207px;
+    width : 379px;
+    margin-left: 880px; 
+    margin-top: -227px;
+}
+
+
+.shopproductsname{
+    margin-top : 150px;
+    margin-left : 628.4px;
+    font-size : 2.5rem;
+    display : flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.lastpart{
+    display : flex;
+    flex-direction: column;
+    width : 100%;
+    margin-top : 135px;
+    padding : 0px 0px 160px 0px;
+}
+.lastpartflex{
+   display : flex;
+   flex-direction: row;
+   
+}
+.lastpartflex2{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lastpartflex {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+
+
+.lastbit{
+    background-image: url("lastbit2.jpg");
+    height :635px;
+    width : 100%;
+    background-size: cover;
+    /* margin-bottom: -50px; */
+    position : flex;
+    flex-wrap: wrap;
+}
+.bit1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight :500;
+    margin-top : 250px;
+}
+.bit2{
+    text-align: center;
+    font-size: 3rem;
+    font-weight :500;
+    margin-top: 10px;
+}
+.bit3{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 26px;
+}
+.bit4{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.butt{
+    background-color: black;
+    color: #e3dfdf;
+    margin-left :663px;
+    height : 54px;
+    width : 164px;
+    font-size: 1.1rem;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background:transparent;
+    padding: 15px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.navbar-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+/* Menu items */
+.menu-item {
+    position: relative;
+}
+
+/* Main menu links */
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.menu-item a:hover {
+    color: #ffcc00;
+}
+
+/* Submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    min-width: 180px;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+/* Submenu items */
+.submenu a {
+    color:black;
+    display: block;
+    padding: 10px;
+    transition: background 0.3s;
+    white-space: nowrap;
+}
+
+.submenu a:hover {
+    background: #ddd;
+}
+
+/* Show submenu on hover */
+.menu-item:hover .submenu {
+    display: block;
+}
+.logo{
+    background-size :cover;
+    background-image : url("logitechlogo.jpeg");
+    height : 36px;
+    width : 118px;
+    margin-right : 550px;
+    margin-bottom : 180px;
+    margin-left : 39px;
+}
+.buttonc{
+    margin-top : 10px;
+}
+.footer{
+    background-color: black;
+    width : 100%;
+    clear : both;
+    height : 500px;
+}
+.footer1{
+    color : white;
+    margin-left : 50px;
+    margin-top : 60px;
+}
+.rt {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.t {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.k {
+    display: block;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.footer1, .footer2, .footer3 {
+    float: left;
+    margin: 60px 50px 0 50px;
+    color: white;
+}
+.footer1 p, .footer2 p,.footer3 p{
+    margin-bottom: 10px;
+}
+.footer3{
+    margin-left: 300px;
+}
+.hrt{
+    width : 80%;
+    margin-bottom: -200px;
+}
+.submenu-links {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  .submenu-links a {
+    padding: 5px 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .submenu-links a:hover {
+    color: #000;
+    background-color: #f5f5f5;
+  }
+  
+  /* Show submenu on hover */
+  .menu-item:hover .submenu {
+    display: block;
+  }
+  .submenu-links{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+  }
+  /* General submenu styles */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 250px;
+  z-index: 10;
+}
+
+/* Arrange submenu items in a row */
+.submenu a {
+  padding: 10px;
+  color: #555;
+  text-decoration: none;
+  text-align: center;
+  flex: 1; /* Ensures each link is of equal width */
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Submenu container arranged in a row */
+.menu-item:hover .submenu {
+  display: flex; /* Use Flexbox to align links in a row */
+  flex-wrap: wrap; /* Allows wrapping if content overflows */
+  justify-content: space-around; /* Adjust spacing between links */
+}
+/* Submenu styles */
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  min-width: 400px; /* Increase the minimum width to fit all items */
+  z-index: 10;
+  display: flex; /* Ensure submenu items are in a row */
+  justify-content: space-around; /* Add spacing between items */
+}
+
+/* Individual submenu links */
+.submenu a {
+  padding: 10px;
+  color: #555;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap; /* Prevent links from wrapping to the next line */
+}
+
+.submenu a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Show the submenu on hover */
+.menu-item:hover .submenu {
+  display: flex; /* Show the submenu in a row */
+}
+/* Submenu styles */
+.submenu {
+    display: none; /* Hide submenu by default */
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 400px; /* Increase the minimum width to fit all items */
+    z-index: 10;
+    flex-wrap: nowrap; /* Prevent wrapping of items */
+    justify-content: space-around;
+  }
+  
+  /* Individual submenu links */
+  .submenu a {
+    padding: 20px;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap; /* Prevent links from wrapping to the next line */
+  }
+  
+  .submenu a:hover {
+    background-color: #f0f0f0;
+    color: #000;
+  }
+  
+  /* Show submenu only on hover of parent menu item */
+  .menu-item:hover .submenu {
+    display: flex; /* Display submenu in a row when parent is hovered */
+  }
+  /* this is after */
+  .section3 {
+    width: 100%;
+    clear: both;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section3-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.tab u {
+    text-decoration: none;
+}
+
+hr {
+    height: 1px;
+    background-color: #636060;
+    width: 100%;
+    margin: 0px 320px 0px 48px;
+}
+
+.images__ {
+    width: 100%;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.image1_, .image2_, .image3_, .image4_, .image5_ {
+    background-size: cover;
+    height: 180px;
+    width: 180px;
+    border: 20px solid rgb(239, 235, 235);
+}
+
+.image1_ { background-image: url("section31.webp"); }
+.image2_ { background-image: url("section32.webp"); }
+.image3_ { background-image: url("section33.webp"); }
+.image4_ { background-image: url("section34.webp"); }
+.image5_ { background-image: url("section35.webp"); }
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.inside p {
+    text-align: center;
+}
+
+/* Hide all categories by default */
+.new-category, .bestsellers-category, .recommended-category {
+    display: none;
+}
+/* Style for the hamburger icon */
+.hamburger-menu {
+    display: none; /* Hide the hamburger menu by default */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header with logo and hamburger menu */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333; /* Adjust this to match your design */
+}
+
+/* Logo styles */
+.logo img {
+    width: 120px; /* Adjust based on your logo size */
+}
+
+/* Style for the hamburger icon */
+.hamburger-menu {
+    font-size: 30px;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    color: white;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu {
+    display: none; /* Hide the menu by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding-top: 60px;
+    text-align: left;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.mobile-menu ul li {
+    padding: 15px;
+    border-bottom: 1px solid #fff; /* Add a separator line between items */
+}
+
+.mobile-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.mobile-menu ul li a:hover {
+    color: #f1f1f1;
+}
+
+/* Display hamburger menu only on mobile */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block; /* Show hamburger on small screens */
+    }
+}
+.co{
+    color : white;
+    margin-top : 440px;
+    margin-right : 300px;
+}
+
