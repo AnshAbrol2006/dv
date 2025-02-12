@@ -1,25 +1,37 @@
-function showImages(category) {
-    // First, hide all images
-    const allCategories = document.querySelectorAll('.inside1, .inside2, .inside3, .inside4, .inside5');
-    allCategories.forEach(image => {
-        image.style.display = 'none'; // Hide all images
-    });
 
-    // Show images based on category
-    const categoryImages = document.querySelectorAll(`.${category}-category`);
-    categoryImages.forEach(image => {
-        image.style.display = 'flex'; // Show images for selected category
-    });
+window.onload = function() {
+    showImages('new');
+};
+
+function showImages(category) {
+   
+    document.getElementById('new-category').style.display = 'none';
+    document.getElementById('bestsellers-category').style.display = 'none';
+    document.getElementById('recommended-category').style.display = 'none';
+
+   
+    document.getElementById(`${category}-category`).style.display = 'flex';
+
+
+    const tabs = document.querySelectorAll('.tab');
+    tabs.forEach(tab => tab.classList.remove('active'));
+
+    document.querySelector(`.tab:nth-child(${category === 'new' ? 1 : category === 'bestsellers' ? 2 : 3})`).classList.add('active');
 }
+
 function toggleMenu() {
     const menu = document.getElementById('mobileMenu');
-    // Toggle the display of the menu
+  
     if (menu.style.display === 'block') {
-        menu.style.display = 'none'; // Hide the menu
+        menu.style.display = 'none'; 
     } else {
-        menu.style.display = 'block'; // Show the menu
+        menu.style.display = 'block'; 
     }
 }
+
+
+
+
 
 
 
