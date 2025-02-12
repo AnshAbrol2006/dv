@@ -13,11 +13,11 @@
   
         </div>
         <div class="hamburger-menu" onclick="toggleMenu()">
-            &#9776; <!-- Hamburger Icon -->
+            &#9776;
         </div>
     </div>
     
-    <!-- Hidden Menu that will show when hamburger is clicked -->
+
     <div id="mobileMenu" class="mobile-menu">
         <ul>
             <li><a href="#">My Account</a></li>
@@ -46,70 +46,68 @@
    
 
     </header>
-    <div class="backimage">
-          <div class="tags">
-            <nav class="navbar-menu">
-                    <li class="menu-item">
-                        <a href="#" id="shop-btn">Shop</a>
 
-                        <div class="submenu">
-                            <a href="#">Webcams & Audio </a>
-                             
-                        
-                            <a href="#">Keyboards & Console </a>
-                            <a href="#">Mice</a>
-                            <a href="#">Headsets</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#">Discover</a>
-                        <div class="submenu">
-                            <a href="#">Latest Products</a>
-                            <a href="#">Technology</a>
-                            <h3>Related Links</h3>
-                            <div class="submenu-links">
-                                
-                            
-                              </div>
-                            <a href="#">Gaming Gear</a>
-                            <h3>Related Links</h3>
-                            <div class="submenu-links">
-                                
+        <div class="backimage">
+            <div class="tags">
+                      <li class="menu-item">
+                          <a href="#" id="shop-btn">Shop</a>
+  
+                          <div class="submenu">
+                              <a href="#">Webcams & Audio </a>
                                
-                              </div>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#">Business</a>
-                        <div class="submenu">
-                            <a href="#">Enterprise Solutions</a>
-                            <a href="#">Work from Home</a>
-                            <a href="#">Office Equipment</a>
-                        </div>
-                    </li>
-                    <li class="menu-item">
-                        <a href="#">Support</a>
-                        <div class="submenu">
-                            <a href="#">Customer Service</a>
-                            <a href="#">Downloads</a>
-                            <a href="#">Warranty</a>
-                            <a href="#">FAQs</a>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-          </div>
-          
-          
-            <button class = "button" > Search...      <i class="fa-solid fa-magnifying-glass"></i></button>
-         
-          <div class="logo"></div>
-    
-          <p class = "user"><i class="fa-regular fa-user" style="color: #f7f7f7;"></i></p>
+                          
+                              <a href="#">Keyboards & Console </a>
+                              <a href="#">Mice</a>
+                              <a href="#">Headsets</a>
+                          </div>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#">Discover</a>
+                          <div class="submenu">
+                              <a href="#">Latest Products</a>
+                              <a href="#">Technology</a>
+                              <h3>Related Links</h3>
+                              <div class="submenu-links">
+                                  
+                              
+                                </div>
+                              <a href="#">Gaming Gear</a>
+                              <h3>Related Links</h3>
+                              <div class="submenu-links">
+                                  
+                                 
+                                </div>
+                          </div>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#">Business</a>
+                          <div class="submenu">
+                              <a href="#">Enterprise Solutions</a>
+                              <a href="#">Work from Home</a>
+                              <a href="#">Office Equipment</a>
+                          </div>
+                      </li>
+                      <li class="menu-item">
+                          <a href="#">Support</a>
+                          <div class="submenu">
+                              <a href="#">Customer Service</a>
+                              <a href="#">Downloads</a>
+                              <a href="#">Warranty</a>
+                              <a href="#">FAQs</a>
+                          </div>
+                      </li>
+                  </ul>
+            </div>
+            <div class="class">
+                <button class = "button" id="b1"> Search...      <i class="fa-solid fa-magnifying-glass"></i></button>
+                       
+                  
+                        <p class = "user"><i class="fa-regular fa-user" style="color: #f7f7f7;"></i></p>
+                      </div>
     <div class="msm">
     <p class = "a"> MEET. STREAM.</p>
     <p class = "b"> MASTER.</p>
-    <p class = "mastertext">Introducing MX Brio. Experience sharp ultra HD 4K video</p> 
+    <p class = "mastertext1">Introducing MX Brio. Experience sharp ultra HD 4K video</p> 
     <p class = "mastertext">with our most advanced webcam yet</p>
     <a href = "https://www.logitech.com/en-in/products/webcams/mx-brio.html">
         <button class = "masterbutton buttonc "> LEARN MORE </button>
@@ -152,21 +150,7 @@
     <br>
     <br>
     <br>
-
-    <div class="header">
-        <div class="logo">
-            <!-- Replace with your logo -->
-            <img src="your-logo.png" alt="Logo" />
-        </div>
-        <div class="hamburger-menu" onclick="toggleMenu()">
-            &#9776; <!-- Hamburger Icon -->
-        </div>
-    </div>
-    
-    <!-- The background overlay that will show when menu is open -->
-    <div id="overlay" class="overlay"></div>
-    
-    <!-- Hidden Menu that will show when hamburger is clicked -->
+    <div id="overlay" class="overlay"></div>  
     <div id="mobileMenu" class="mobile-menu">
         <ul>
             <li><a href="#">My Account</a></li>
@@ -178,43 +162,66 @@
         </ul>
     </div>
     
-    <div class="section3">
-        <div class="section3-container">
-            <div class="new tab" onclick="showImages('new')"> <u>NEW</u> </div>
-            <div class="bestsellers tab" onclick="showImages('bestsellers')"> BESTSELLERS </div>
-            <div class="recommended tab" onclick="showImages('recommended')"> RECOMMENDED </div>
-            <hr>
+   
+    <div id="tab-container">
+        <div class="tab active" onclick="showImages('new')">New</div>
+        <div class="tab" onclick="showImages('bestsellers')">Bestsellers</div>
+        <div class="tab" onclick="showImages('recommended')">Recommended</div>
+    </div>
+    <hr>
+
+    <div class="image-container" id="new-category">
+        <div class="image-box">
+            <img src="section31.webp" alt="Image 1">
+            <p>COMBO TOUCH FOR IPAD AIR</p>
         </div>
-    
-        <div class="images__" id="imageContainer">
-            <div class="inside1 inside new-category">
-                <div class="image1_"></div>
-                COMBO TOUCH FOR IPAD <p>AIR</p>
-            </div>
-    
-            <div class="inside2 inside bestsellers-category">
-                <div class="image2_"></div>
-                COMBO TOUCH FOR IPAD <p>PRO</p>
-            </div>
-    
-            <div class="inside3 inside recommended-category">
-                <div class="image3_"></div>
-                KEYS-TO-GO 2
-            </div>
-    
-            <div class="inside4 inside new-category">
-                <div class="image4_"></div>
-                MEETUP 2
-            </div>
-    
-            <div class="inside5 inside bestsellers-category">
-                <div class="image5_"></div>
-                ZONE 300
-            </div>
+        <div class="image-box">
+            <img src="section32.webp" alt="Image 2">
+            <p>COMBO TOUCH FOR IPAD PRO</p>
+        </div>
+        <div class="image-box">
+            <img src="section33.webp" alt="Image 3">
+            <p>KEYS-TO-GO 2</p>
+        </div>
+        <div class="image-box">
+            <img src="section34.webp" alt="Image 4">
+            <p>MEETUP 2</p>
+        </div>
+        <div class="image-box">
+            <img src="section35.webp" alt="Image 5">
+            <p>ZONE 300</p>
         </div>
     </div>
-    
+
+    <div class="image-container" id="bestsellers-category">
+        <div class="image-box">
+            <img src="bestsellers1.webp" alt="Bestseller 1">
+            <p>COMBO TOUCH FOR IPAD AIR</p>
+        </div>
+        <div class="image-box">
+            <img src="bestsellers2.webp" alt="Bestseller 2">
+            <p>MX MASTER 3S</p>
+        </div>
+        <div class="image-box">
+            <img src="bestsellers3.webp" alt="Bestseller 3">
+            <p>MX KEYS S COMBO</p>
+        </div>
+        <div class="image-box">
+            <img src="bestsellers4.webp" alt="Bestseller 4">
+            <p>LIFT</p>
+        </div>
+        <div class="image-box">
+            <img src="bestsellers5.webp" alt="Bestseller 5">
+            <p>MX BRIO</p>
+        </div>
+    </div>
+
+    <div class="image-container" id="recommended-category">
+     
+    </div>
     <script src="script.js"></script>
+
+
 
     
     
@@ -222,32 +229,50 @@
     <div class="shopseries">
     <div class="shopseriesname"> SHOP SERIES </div>
     <div class="shopseriesimages3">
-    <div class="shopseries1 shopimage">ERGO SERIES 
-    <div class="hover-text"></div>
+    <div class="shopseries1 shopimage">ERGO SERIES    
+    <div class="content1">
+     Meet the Ergo Products designed to enhance your comfort and productivity
     </div>
-    <div class="shopseries2 shopimage">MX MASTER SERIES </div>
-    <div class="shopseries3 shopimage">FOR CODERS </div>
+    </div>
+    <div class="shopseries2 shopimage">MX MASTER SERIES
+    <div class="content2">
+        Unleash your capability to create, make and do. Transform the way you work with MX Mice, Keyboards, Webcams and more 
+       </div>
+    </div>
+    <div class="shopseries3 shopimage">FOR CODERS 
+        <div class="content3">
+            Master your workflow until your last line of code is written and compiled
+     </div>
+    </div>
     </div>
     <div class="image2ndpart">
-     <div class="shopseries4 shopimage2">FOR CREATIVES</div>
-    <div class="shopseries5 shopimage2">ON THE GO </div> 
+     <div class="shopseries4 shopimage2">FOR CREATIVES
+        <div class="content4">
+            Logi products are built for every step of the creative process.
+     </div>
+     </div>
+    <div class="shopseries5 shopimage2">ON THE GO 
+        <div class="content3">
+            Discover the mobile products and portable tools designed to work and play on the go.
     </div>
     </div>
-    <div class="lastpart">
+    </div>
+    </div>
+        <div class="lastpart">
         <div class="shopproductsname"> SHOP PRODUCTS </div>
         <div class="lastpartflex">
-        <div class="lastpartimage1">MICE </div>
-        <div class="lastpartimage2">KEYBOARDS</div>
-        <div class="lastpartimage3">HEADSET & EARBUDS </div>
+        <div class="lastpartimage1 trans">MICE </div>
+        <div class="lastpartimage2 trans">KEYBOARDS</div>
+        <div class="lastpartimage3 trans">HEADSET & EARBUDS </div>
         </div>
         <div class="lastpartflex2">
         <div class="image2ndpart2">
-        <div class="lastpartimage4">iPAD KEYBOARD CASES </div>
-        <div class="lastpartimagemid">COMBOS</div> 
-        <div class="lastpartimage6">WEBCAM</div>
+        <div class="lastpartimage4 trans">iPAD KEYBOARD CASES </div>
+        <div class="lastpartimagemid trans">COMBOS</div> 
+        <div class="lastpartimage6 trans ">WEBCAM</div>
         </div>  
         </div>
-    </div>
+        </div>
     <br>
     <br>
     <br>
@@ -265,6 +290,7 @@
 <br>
 <br>
 <footer class="footer">
+    <div class="footer-container">
     <div class="footer1">
       <p>ABOUT</p>
       <a class="rt">Logitech story</a>
@@ -276,8 +302,7 @@
       <br>
       <br>
       <br>
-      <br>
-      
+      <br>     
       <hr class = "hrt" > 
     </div>
     <div class="footer2">
@@ -290,12 +315,15 @@
       <p>CUSTOMERS</p>
       <a class="k">Social Impact</a>
     </div>
-    <div class="co">        ©2025 Logitech. All rights reserved
-        Terms of Use
-        Privacy Policy
-        Cookie Settings
-        Sitemap </div>
-        
+    </div>
+    <input class="email" name="emailId" aria-label="ENTER EMAIL ADDRESS" placeholder="ENTER EMAIL ADDRESS" >                                                   
+    
+    <label class="custom-checkbox"><input type="checkbox">
+        <span class="checkmark"></span>
+        Accept Terms & Conditions
+      </label>           <checkbox></checkbox><p class = "lastline">I want personalized marketing from Logitech.You can</p>
+    <p class = "lastline"> unsubscribe anytime See your <u>privacy policy</u></p>
+    <div class="co">   ©2025 Logitech. All rights reserved  | Terms of Use | Privacy Policy | Cookie Settings | Sitemap </div>
 
   </footer>
   
