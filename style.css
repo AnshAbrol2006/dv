@@ -27,14 +27,16 @@
     margin-left: 27px;
     border : none;
 }
-.globeindia i{
-    display : flex;
-}
+
 .globeindia{
-    position : relative;
-    margin-left: 700px;
+    gap : 5px;
     font-size: 14px;
     color: #908888;
+    display : flex;
+    flex-direction: row-reverse;
+    position : relative;
+    left : 570px;
+    top : 10px;
 }
 .backimage{
     background-image: url("https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-desktop.jpg?v=1");
@@ -44,6 +46,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
+    align-items : center;
     flex-wrap: wrap;
 }
 .logitech2{
@@ -63,19 +66,28 @@
     margin-top: 20px;
     margin-left: 170px;
     font-size: 0.9rem;
-
+    
+}
+#b1 {
+    background-color: rgba(255, 255, 255, .3);
+    color: #fff !important;
 }
 .search{
-    margin-top: 20px;
+
+    background-color: transparent;
+
     
 }
 .button{
-    border-radius: 17%;
+    border-radius: 30px;
+    height : 30px;
+    width : 150px;
 }
-.user{
-
-    margin-left : 200px;
-    margin-bottom : 200px;
+.class{
+    display : flex;
+    gap : 10px;
+    position : relative;
+    left : 230px;
 }
 .fancy{
     font-size: 3rem;
@@ -84,22 +96,32 @@
 .msm{
     width : 100%;
     clear : both;
-    margin-top: 150px;
-    position : relative;
-    top : 10px;
-    margin-top : -90px;
+    margin-left: 39px;
+    position: relative;
+    top : 72px;
+    margin-right : 70%;
+
+
 }
 .a{
     font-size: 3rem;
     color : white;
     margin-left : 39px;
+    font-weight : 700;
 }
 .b{
     font-size: 3rem;
     color : white;
     margin-left : 39px;
     margin-bottom: 20px;
+    font-weight: 700;
 
+}
+.mastertext1{
+    width : 100%;
+    color : white;
+    font-size : 1.02rem;
+    font-family : helvetica,arial,sans-serif;
 }
 .nextdiv{
 margin-top : 160px;    
@@ -107,18 +129,19 @@ width : 100%
 }
 .mastertext{
     color:white;
-    font-size: 1.2rem;
-    margin-left : 39px;
+    font-size: 1.02rem;
+    font-family : helvetica,arial,sans-serif;
+
 }
 .masterbutton{
-    width : 100px;
-    height : 29px;
+    width : 160px;
+    height : 56px;
     font-size: 0.8rem;
     margin-bottom: 150px;
 }
 .masterbutton2{
-    width : 100px;
-    height : 29px;
+    width : 160px;
+    height : 56px;
     font-size: 0.8rem;
     margin-left: 10px;
 }
@@ -126,50 +149,71 @@ width : 100%
     margin-left: 39px;
     margin-bottom: 180px;
 }
+.tags{
+    margin-left : 436px;
+    color : white;
+    
+}
+.tags a{
+    color : white;
+}
+.tags >li >a {
+    color : white;
+}
 .nextpart {
     margin-top: 15px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; /* This keeps spacing equal */
-    align-items: flex-start; /* Ensures all items align properly */
-    gap: 20px; /* Adds uniform spacing */
+    justify-content: space-between;
+    gap : 25px;
     flex-wrap: wrap;
+    width : 100%;
 }
 
 .image {
     height: 378px;
     width: 378px;
     background-size: cover;
-    background-position: center;
+
     
 }
 
-/* Ensure all images have proper backgrounds */
+
 .image1 { background-image: url("1.jpeg"); }
 .image2 { background-image: url("2.jpeg"); }
 .image3 { background-image: url("3.webp"); }
 
-/* Ensures uniform container alignment */
+
 .image-cont1, .image-cont2, .image-cont3 {
 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center aligns text and image */
-    text-align: center; /* Ensures text stays under the image */
-    width: 28%; /* Each section takes equal space */
-    margin: 0; /* Remove unnecessary margins */
+    position : relative;
+    left : 100px;
+
 }
 
 .image11,.image21 ,.image31 {
     font-weight : 600;
     font-size: 1.3rem;
 }
+.image1{
+    font-size : 1.2rem;
+}
+.image-cont1{
+    position : relative;
+    right : 90px;
+}
+.image-cont2{
+    position : relative;
+    left : 75px;
+}
     
 
 
 .imagen {
-    margin-right: 0px; /* Remove unwanted right margin */
-    text-align: center; /* Ensure the text aligns properly */
+    margin-right: 0px; 
+    text-align: center; 
 }
 .section3{
     width : 100%;
@@ -197,8 +241,8 @@ width : 100%
 }
 hr{
     height : 1px;
-    background-color: #636060;  /* Line color */
-    width: 100%;  /* Full-width line */
+    background-color: #636060; 
+    width: 100%; 
     margin: 0px 320px 0px 48px; 
 }
 .images__{
@@ -266,9 +310,11 @@ hr{
 }
 .shopseries{
     display : flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: #e3dfdf;
     width : 100%;
+    position: relative;
     margin-top : 135px;
 }
 .shopimage{
@@ -286,40 +332,86 @@ hr{
    background-image: url("shopseries.1.webp");
    height : 319px;
    width : 375px;
-   margin-left : 148px;
+   margin-left : 162px;
    margin-top : 25px;
-
+   display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    text-align: center;
 }
+
+
+
+
 .shopseries2{
    background-image: url("shopseries.2.webp");
    height : 319px;
    width : 375px;
-   margin-left:74px;
+   margin-left:20px;
    margin-top : 25px;
+   display: flex; 
+   align-items: center; 
+   justify-content: center; 
+   position: relative; 
+   text-align: center;
 }
 .shopseries3{
     background-image: url("shopseries.3.webp");
     height : 319px;
     width : 375px;
-    margin-left : 50px;
+    margin-left : 20px;
     margin-top : 25px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    text-align: center;
 }
 .shopseries4 {
     background-image: url("shopseries.4.webp");
     height: 319px;
     width: 375px;
-    margin-left : 148px;
+    margin-left : 162px;
+    margin-top : 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    text-align: center;
     
 }
 
 .shopseries5 {
     background-image: url("shopseries.5.webp");
     height: 319px;
-    width: 799px; 
-    margin-left : 74px;
+    width: 769px; 
+    margin-left : 20px;
+    margin-top: 20px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    position: relative; 
+    text-align: center;
 }
+.content1 ,.content2 ,.content3,.content4,.content5{
+    opacity: 0;
+    transition: 0.6s;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-
+}
+.content1:hover,.content2:hover,.content3:hover,.content4:hover,.content5:hover,.shopimage1:hover,.shopimage2:hover,.shopimage3:hover,.shopimage4:hover,.shopimage5:hover{
+    opacity :1;
+}
 
 .shopseriesimages3{
     display : flex;
@@ -337,12 +429,15 @@ hr{
     height : 434px;
     width : 379px;
     margin-left : 150px;
+    transition: transform 0.2s zoom-in;
+
 }
 .lastpartimage2{
     background-image: url("last2.webp");
     background-size: cover;
     width : 379px;
     height : 207px;
+    transition: transform 0.2s ease-in;
 }
 .lastpartimage3{
     background-image: url("last3.webp");
@@ -350,6 +445,7 @@ hr{
     height : 434px;
     width : 379px;
     margin-right : 150px;
+    transition: transform 0.2s ease-in;
 }
 .lastpartimage4{
     background-image: url("last4.webp");
@@ -358,6 +454,8 @@ hr{
     width : 379px;
     margin-left: 80px;
     margin-right : 910px;
+    margin-top : 20px;
+    transition: transform 0.2s ease-in;
 }
 .lastpartimagemid{
     background-image: url("lastmiddle.webp");
@@ -367,6 +465,7 @@ hr{
     position: relative; 
     margin-top: -433px; 
     margin-left: 476px; 
+    transition: transform 0.2s ease-in;
     
     
 }
@@ -376,8 +475,16 @@ hr{
     height : 207px;
     width : 379px;
     margin-left: 880px; 
-    margin-top: -227px;
+    margin-top: -207px;
+    transition: transform 0.2s ease-in;
+
 }
+
+ .lastpartimage1:hover ,.lastpartimage2:hover ,.lastpartimage3:hover, .lastpartimage4:hover, .lastpartimagemid:hover, .lastpartimage6:hover {
+
+    transform: scale(1.1);
+ }
+
 
 
 .shopproductsname{
@@ -394,6 +501,7 @@ hr{
     width : 100%;
     margin-top : 135px;
     padding : 0px 0px 160px 0px;
+    clear : both;
 }
 .lastpartflex{
    display : flex;
@@ -446,7 +554,6 @@ hr{
 .butt{
     background-color: black;
     color: #e3dfdf;
-    margin-left :663px;
     height : 54px;
     width : 164px;
     font-size: 1.1rem;
@@ -464,19 +571,20 @@ hr{
 }
 
 .navbar-menu ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     gap: 30px;
+    list-style: none;
 }
 
-/* Menu items */
+
 .menu-item {
     position: relative;
 }
 
-/* Main menu links */
+
 .menu-item a {
     text-decoration: none;
     color: black;
@@ -485,12 +593,11 @@ hr{
     transition: 0.3s;
 }
 
-/* Hover effect */
 .menu-item a:hover {
     color: #ffcc00;
 }
 
-/* Submenu */
+
 .submenu {
     display: none;
     position: absolute;
@@ -564,6 +671,9 @@ hr{
     margin: 60px 50px 0 50px;
     color: white;
 }
+.footer2{
+    margin-left : 200px;
+}
 .footer1 p, .footer2 p,.footer3 p{
     margin-bottom: 10px;
 }
@@ -571,7 +681,7 @@ hr{
     margin-left: 300px;
 }
 .hrt{
-    width : 80%;
+    width : 100%;
     margin-bottom: -200px;
 }
 .submenu-links {
@@ -591,7 +701,7 @@ hr{
     background-color: #f5f5f5;
   }
   
-  /* Show submenu on hover */
+
   .menu-item:hover .submenu {
     display: block;
   }
@@ -600,7 +710,7 @@ hr{
     flex-direction: row;
     cursor: pointer;
   }
-  /* General submenu styles */
+
 .submenu {
   display: none;
   position: absolute;
@@ -612,13 +722,13 @@ hr{
   z-index: 10;
 }
 
-/* Arrange submenu items in a row */
+
 .submenu a {
   padding: 10px;
   color: #555;
   text-decoration: none;
   text-align: center;
-  flex: 1; /* Ensures each link is of equal width */
+  flex: 1; 
 }
 
 .submenu a:hover {
@@ -626,13 +736,13 @@ hr{
   color: #000;
 }
 
-/* Submenu container arranged in a row */
+
 .menu-item:hover .submenu {
-  display: flex; /* Use Flexbox to align links in a row */
-  flex-wrap: wrap; /* Allows wrapping if content overflows */
-  justify-content: space-around; /* Adjust spacing between links */
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around;
 }
-/* Submenu styles */
+
 .submenu {
   display: none;
   position: absolute;
@@ -640,19 +750,19 @@ hr{
   border: 1px solid #ddd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px;
-  min-width: 400px; /* Increase the minimum width to fit all items */
+  min-width: 400px; 
   z-index: 10;
-  display: flex; /* Ensure submenu items are in a row */
-  justify-content: space-around; /* Add spacing between items */
+  display: flex; 
+  justify-content: space-around; 
 }
 
-/* Individual submenu links */
+
 .submenu a {
   padding: 10px;
   color: #555;
   text-decoration: none;
   text-align: center;
-  white-space: nowrap; /* Prevent links from wrapping to the next line */
+  white-space: nowrap; 
 }
 
 .submenu a:hover {
@@ -660,31 +770,31 @@ hr{
   color: #000;
 }
 
-/* Show the submenu on hover */
+
 .menu-item:hover .submenu {
-  display: flex; /* Show the submenu in a row */
+  display: flex;
 }
-/* Submenu styles */
+
 .submenu {
-    display: none; /* Hide submenu by default */
+    display: none; 
     position: absolute;
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    min-width: 400px; /* Increase the minimum width to fit all items */
+    min-width: 400px; 
     z-index: 10;
-    flex-wrap: nowrap; /* Prevent wrapping of items */
+    flex-wrap: nowrap; 
     justify-content: space-around;
   }
   
-  /* Individual submenu links */
+
   .submenu a {
     padding: 20px;
     color: #555;
     text-decoration: none;
     text-align: center;
-    white-space: nowrap; /* Prevent links from wrapping to the next line */
+    white-space: nowrap; 
   }
   
   .submenu a:hover {
@@ -692,11 +802,11 @@ hr{
     color: #000;
   }
   
-  /* Show submenu only on hover of parent menu item */
+
   .menu-item:hover .submenu {
-    display: flex; /* Display submenu in a row when parent is hovered */
+    display: flex;
   }
-  /* this is after */
+
   .section3 {
     width: 100%;
     clear: both;
@@ -764,48 +874,48 @@ hr {
     text-align: center;
 }
 
-/* Hide all categories by default */
+
 .new-category, .bestsellers-category, .recommended-category {
     display: none;
 }
-/* Style for the hamburger icon */
+
 .hamburger-menu {
-    display: none; /* Hide the hamburger menu by default */
+    display: none;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 1000;
 }
-/* General Styling */
+
 body {
     font-family: Arial, sans-serif;
 }
 
-/* Header with logo and hamburger menu */
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
-    background-color: #333; /* Adjust this to match your design */
+    background-color: #333; 
 }
 
-/* Logo styles */
+
 .logo img {
-    width: 120px; /* Adjust based on your logo size */
+    width: 120px; 
 }
 
-/* Style for the hamburger icon */
+
 .hamburger-menu {
     font-size: 30px;
     cursor: pointer;
-    display: none; /* Hidden by default */
+    display: none; 
     color: white;
 }
 
-/* Mobile Menu Styles */
+
 .mobile-menu {
-    display: none; /* Hide the menu by default */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -822,10 +932,15 @@ body {
     list-style-type: none;
     padding: 0;
 }
+.tags li{
+    list-style: none;
+}
+
 
 .mobile-menu ul li {
     padding: 15px;
-    border-bottom: 1px solid #fff; /* Add a separator line between items */
+    border-bottom: 1px solid #fff;
+    list-style: none;
 }
 
 .mobile-menu ul li a {
@@ -833,21 +948,340 @@ body {
     text-decoration: none;
     font-size: 18px;
     display: block;
+    list-style: none;
 }
 
 .mobile-menu ul li a:hover {
     color: #f1f1f1;
+    list-style: none;
 }
 
-/* Display hamburger menu only on mobile */
+
 @media (max-width: 768px) {
     .hamburger-menu {
-        display: block; /* Show hamburger on small screens */
+        display: block; 
     }
 }
 .co{
     color : white;
-    margin-top : 440px;
-    margin-right : 300px;
+    margin-top : 200px;
+    margin-right : 300px; 
+}
+html{
+    overflow-x: hidden;
+
+} 
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
+/* Tab Styles */
+#tab-container {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.tab {
+    padding: 15px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.tab.active {
+    border-bottom: 3px solid #007bff;
+    color: #007bff;
+}
+
+hr {
+    width: 80%;
+
+}
+
+.image-container {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-box {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-box p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#new-category {
+    display: flex;
+}
+.email{
+    height : 40px;
+    width : 337px;
+    margin-top : -700px;
+    margin-left : 1000px;
+    position : sticky;
+}
+.lastline{
+    color : rgb(218, 213, 213);
+    font-size: 0.85rem;
+    position : relative;
+    top : 10px;
+    left : 423px;
+}
+.custom-checkbox{
+    position: relative;
+    top : 58px;
+    right : 360px;
+}
+@media (max-width:480px)
+{
+    .backimage{
+        background-image: url("https://resource.logitech.com/w_420,h_1024,c_limit,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-mobile.jpg?v=1");
+       background-position: center;
+       background-size: cover;
+       position: relative;
+       height: 500px;
+       width:auto;
+
+    } 
+    img{
+        overflow: hidden;
+    }   
+    .shopseries{
+        flex-direction: row;
+    }
+    .nextpart {
+        display: flex;
+        flex-direction: column; 
+        align-items: flex-start; 
+        padding-left: 0px; 
+    }
+    .image-cont1, .image-cont2, .image-cont3 {
+        margin-left: -40px;
+    }
+    .nextpart p, .nextpart h2 {
+        text-align: left; 
+        margin-left: -40px; 
+    }
+    .msm{
+        margin: 0;
+        margin-bottom: 20%;
+    }
+    .shopimage,.shopimage2,.shopseriesname{
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        max-width: 90%;
+        margin: 0;
+        gap:10px;
+        text-align: center;
+        background-position: center;
+    }
+    #tab-container{
+        display : grid;
+        grid-template-rows: repeat (3,1fr);
+        position : center;
+        position : relative;
+    }
+
+    .shopseries {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto; 
+        padding: 20px 0;
+    }
+
+    .shopseriesimages3, .image2ndpart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .shopimage, .shopimage2 {
+        width: 100%;
+        height: 250px; 
+        padding: 10px;
+        text-align: center;
+        background-size: cover; 
+        background-position: center;
+    }
+
+    .shopseries5 {
+        height: 200px; 
+    }
+    .shopproductsname {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+  
+    .shopproducts {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        width: 100%;
+    }
+
+    .lastpartflex, .lastpartflex2, .image2ndpart2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        gap: 9px; 
+        width: 100%;
+    }
+
+    .lastpartimage1, .lastpartimage2, .lastpartimage3, .lastpartimage4 {
+        width: 90%; 
+        max-width: 400px; 
+        height: 320px; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+  
+    .lastpartimagemid, .lastpartimage6 {
+        display: none;
+    }
+    .lastbit {
+        background-size: cover;
+        
+            text-align: center;
+    }
+    .bit1,.bit2,.bit3,.bit4{
+        position : relative;
+        left : 70px;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: flex-start; 
+        flex-wrap: wrap; 
+        padding: 10px 15px;
+    }
+
+    .footer1, .footer2, .footer3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer1 p, .footer2 p, .footer3 p {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .rt, .t, .k {
+        display: block;
+        margin: 2px 0;
+    }
+
+    .email {
+        width: 80%;
+        padding: 8px;
+        margin: 10px 0;
+    }
+
+    .co {
+        text-align: center;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 10px; 
+        text-align: center;
+    }
+    .lastline{
+        display :none
+    }
+    .footer1{
+        position : relative;
+        right : 250px;
+        bottom : 27px;
+    }
+    .footer2{
+        position : relative;
+        bottom : 118px;
+        right : 270px;
+    }
+    .footer3{
+        position : relative;
+        right : 200px;
+        bottom : 276px;
+    }
+    .shopproductsname {
+        font-size: 2rem; 
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 50px; 
+        margin-left : 134px;
+    }
+
+    
+    .lastpart {
+        padding: 30px 0; 
+        margin-top: 15px; 
+    }
+
+ 
+    .lastpartflex, .lastpartflex2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 15px; 
+    }
+
+   
+    .lastpartimage1, .lastpartimage2, .lastpartimage3, 
+    .lastpartimage4, .lastpartimagemid, .lastpartimage6 {
+        width: 90%;  
+        height: 240px; 
+        background-size: cover;
+        background-position: center;
+        border-radius: 12px; 
+        margin: 0 auto;
+    }
+
+    
+    .lastpart {
+        min-height: 800px; 
+    }
+
+}
+html,body{
+    overflow-x: hidden;
+}
