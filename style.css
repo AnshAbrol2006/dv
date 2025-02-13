@@ -1077,7 +1077,12 @@ hr {
         padding-left: 0px; 
     }
     .image-cont1, .image-cont2, .image-cont3 {
-        margin-left: -40px;
+        margin-left: -100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+        width: 100%;
     }
     .nextpart p, .nextpart h2 {
         text-align: left; 
@@ -1173,12 +1178,32 @@ hr {
     }
     .lastbit {
         background-size: cover;
-        
-            text-align: center;
+        width: 100%;
+        text-align: center;
+        position: relative;
     }
+    .lastbit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        justify-content: center; 
+        width: 100vw; 
+        text-align: center; 
+        position: relative; 
+        padding: 20px 0; 
+    }
+    
+    .lastbit h1, 
+    .lastbit p, 
+    .lastbit button {
+        text-align: center;
+        width: auto; 
+        margin: 10px 0; 
+    }
+    
     .bit1,.bit2,.bit3,.bit4{
         position : relative;
-        left : 70px;
+        left : 50px;
     }
     .footer {
         display: flex;
@@ -1216,15 +1241,7 @@ hr {
         margin: 10px 0;
     }
 
-    .co {
-        text-align: center;
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap; 
-        gap: 10px; 
-        text-align: center;
-    }
+
     .lastline{
         display :none
     }
@@ -1280,8 +1297,127 @@ hr {
     .lastpart {
         min-height: 800px; 
     }
-
+    .nextpart {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: fit-content; 
+        text-align: center; 
+    }
+    
+    .nextpart p {
+        text-align: center; 
+        margin: 0 auto;
+    }
 }
+
 html,body{
     overflow-x: hidden;
+}
+
+
+
+
+
+
+
+
+
+.lastpartimage1 {
+    background-image: url("last1.webp");
+    background-size: cover;
+    height: 50vh;
+    width: 20vw;
+    margin-left: 18.6vw;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpartimage2 {
+    background-image: url("last2.webp");
+    background-size: cover;
+    width: 20vw;
+    height: 24vh;
+    margin : 0;
+    margin-left : 2vw;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpartimage3 {
+    background-image: url("last3.webp");
+    background-size: cover;
+    height: 50vh;
+    width: 20vw;
+    margin-right: 15vw;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpartimage4 {
+    background-image: url("last4.webp");
+    background-size: cover;
+    height: 24vh;
+    width: 20vw;
+    margin-left: 5vw;
+    margin-right: 47vw;
+    margin-top: 2vh;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpartimagemid {
+    background-image: url("lastmiddle.webp");
+    background-size: cover;
+    width: 20vw;
+    height: 50vh;
+    position: relative;
+    margin-top: -50vh;
+    margin-left: 28vw;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpartimage6 {
+    background-image: url("last6.webp");
+    background-size: cover;
+    height: 24vh;
+    width: 20vw;
+    margin-left: 50.7vw;
+    margin-top: -24vh;
+    transition: transform 0.2s ease-in;
+}
+
+.lastpart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15vh;
+    padding: 0 0 18vh 0;
+    clear: both;
+}
+
+.lastpartflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.lastpartflex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lastpartimage1:hover, 
+.lastpartimage2:hover, 
+.lastpartimage3:hover, 
+.lastpartimage4:hover, 
+.lastpartimagemid:hover, 
+.lastpartimage6:hover {
+    transform: scale(1.1);
+}
+
+
+
+.lastpartflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
 }
